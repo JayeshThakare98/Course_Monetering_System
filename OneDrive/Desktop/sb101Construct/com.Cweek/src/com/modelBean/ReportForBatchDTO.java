@@ -1,11 +1,14 @@
 package com.modelBean;
 
 public class ReportForBatchDTO {
+	
 	// coursePlan
 		private int dayNumber;
 		private String status;
+		
 
 		// course
+		
 		private int courseId;
 		private String courseName;
 
@@ -14,6 +17,7 @@ public class ReportForBatchDTO {
 		private String batchName;
 
 		// faculty
+		
 		private int facultyId;
 		private String facultyName;
 
@@ -28,6 +32,7 @@ public class ReportForBatchDTO {
 			this.status = status;
 			this.courseId = courseId;
 			this.courseName = courseName;
+			
 			this.batchId = batchId;
 			this.batchName = batchName;
 			this.facultyId = facultyId;
@@ -49,19 +54,23 @@ public class ReportForBatchDTO {
 		public void setStatus(String status) {
 			this.status = status;
 		}
+		
 
 		public int getCourseId() {
 			return courseId;
 		}
+		
 
 		public void setCourseId(int courseId) {
 			this.courseId = courseId;
 		}
 
+		
 		public String getCourseName() {
 			return courseName;
 		}
 
+		
 		public void setCourseName(String courseName) {
 			this.courseName = courseName;
 		}
@@ -70,9 +79,11 @@ public class ReportForBatchDTO {
 			return batchId;
 		}
 
+		
 		public void setBatchId(int batchId) {
 			this.batchId = batchId;
 		}
+		
 
 		public String getBatchName() {
 			return batchName;
@@ -81,6 +92,7 @@ public class ReportForBatchDTO {
 		public void setBatchName(String batchName) {
 			this.batchName = batchName;
 		}
+		
 
 		public int getFacultyId() {
 			return facultyId;
@@ -89,20 +101,22 @@ public class ReportForBatchDTO {
 		public void setFacultyId(int facultyId) {
 			this.facultyId = facultyId;
 		}
+		
 
 		public String getFacultyName() {
 			return facultyName;
 		}
 
-		public void setFacultyName(String facultyName) {
-			this.facultyName = facultyName;
+		
+		public void  setFacultyName(String facultyName) {
+			this.facultyName  =  facultyName;
 		}
 
 		@Override
-		public String toString() {
-			return "ReportDayWiseDTO [dayNumber=" + dayNumber + ",status=" + status + ", courseId=" + courseId
+		public String  toString() {
+			return " ReportDayWiseDTO [dayNumber= " + dayNumber + ",status=" + status + ", courseId=" + courseId
 					+ ", courseName=" + courseName + ", batchId=" + batchId + ", batchName=" + batchName + ", facultyId="
-					+ facultyId + ", facultyName=" + facultyName + "]";
+					+ facultyId + ",  facultyName=" + facultyName + "]";
 		}
 
 }

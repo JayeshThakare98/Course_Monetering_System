@@ -7,7 +7,11 @@ public class Course {
 	private String courseDescription;
 	
 	
+	
+	
 	public int getCourseId() {
+		
+		
 		return courseId;
 	}
 	public void setCourseId(int courseId) {
@@ -21,6 +25,7 @@ public class Course {
 	}
 	public int getFee() {
 		return fee;
+		
 	}
 	public void setFee(int fee) {
 		this.fee = fee;
@@ -31,6 +36,7 @@ public class Course {
 	public void setCourseDescription(String courseDescription) {
 		this.courseDescription = courseDescription;
 	}
+	
 	
 	public Course(int courseId, String courseName, int fee, String courseDescription) {
 		super();
@@ -43,6 +49,7 @@ public class Course {
 	public Course() {
 		super();
 	}
+	
 	
 	@Override
 	public String toString() {

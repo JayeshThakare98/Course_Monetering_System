@@ -8,9 +8,11 @@ public class Batch {
 	private String batchStartDate;
 	private String duration;
 	private String batchName;
+	
 
 	public Batch(int batchId, int courseId, int facultyId, int numberOfStudents, String batchStartDate, String duration,
 			String batchName) {
+		
 		super();
 		this.batchId = batchId;
 		this.courseId = courseId;
@@ -22,6 +24,7 @@ public class Batch {
 	}
 
 	public Batch() {
+		
 		super();
 	}
 
@@ -35,6 +38,7 @@ public class Batch {
 
 	public int getCourseId() {
 		return courseId;
+		
 	}
 
 	public void setCourseId(int courseId) {
@@ -44,6 +48,7 @@ public class Batch {
 	public int getFacultyId() {
 		return facultyId;
 	}
+	
 
 	public void setFacultyId(int facultyId) {
 		this.facultyId = facultyId;
@@ -51,11 +56,13 @@ public class Batch {
 
 	public int getNumberOfStudents() {
 		return numberOfStudents;
+		
 	}
 
 	public void setNumberOfStudents(int numberOfStudents) {
 		this.numberOfStudents = numberOfStudents;
 	}
+	
 
 	public String getBatchStartDate() {
 		return batchStartDate;
@@ -81,6 +88,7 @@ public class Batch {
 		this.batchName = batchName;
 	}
 
+	
 	@Override
 	public String toString() {
 		return "Batch [batchId=" + batchId + ", courseId=" + courseId + ", facultyId=" + facultyId
