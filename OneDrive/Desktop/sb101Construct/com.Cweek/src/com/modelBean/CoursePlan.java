@@ -6,11 +6,9 @@ public class CoursePlan {
 	private int dayNumber;
 	private String topic;
 	private String status;
-	
 	public CoursePlan() {
 		super();
 	}
-	
 	public CoursePlan(int planId, int batchId, int dayNumber, String topic, String status) {
 		super();
 		this.planId = planId;
@@ -20,17 +18,14 @@ public class CoursePlan {
 		this.status = status;
 	}
 
-	
 	public int getPlanId() {
 		return planId;
 	}
-	
 
 	public void setPlanId(int planId) {
 		this.planId = planId;
 	}
 
-	
 	public int getBatchId() {
 		return batchId;
 	}
@@ -38,7 +33,6 @@ public class CoursePlan {
 	public void setBatchId(int batchId) {
 		this.batchId = batchId;
 	}
-	
 
 	public int getDayNumber() {
 		return dayNumber;
@@ -48,7 +42,6 @@ public class CoursePlan {
 		this.dayNumber = dayNumber;
 	}
 
-	
 	public String getTopic() {
 		return topic;
 	}
@@ -61,7 +54,6 @@ public class CoursePlan {
 		return status;
 	}
 
-	
 	public void setStatus(String status) {
 		this.status = status;
 	}

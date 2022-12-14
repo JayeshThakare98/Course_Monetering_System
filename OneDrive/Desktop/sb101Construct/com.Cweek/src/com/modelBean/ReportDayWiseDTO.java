@@ -4,13 +4,11 @@ public class ReportDayWiseDTO {
 	// coursePlan
 		private int dayNumber;
 		private String status;
-		
 
 		// course
 		private int courseId;
 		private String courseName;
 
-		
 		// batch
 		private int batchId;
 		private String batchName;
@@ -18,7 +16,6 @@ public class ReportDayWiseDTO {
 		// faculty
 		private int facultyId;
 		private String facultyName;
-		
 
 		public ReportDayWiseDTO() {
 			super();
@@ -29,7 +26,6 @@ public class ReportDayWiseDTO {
 			super();
 			this.dayNumber = dayNumber;
 			this.status = status;
-			
 			this.courseId = courseId;
 			this.courseName = courseName;
 			this.batchId = batchId;
@@ -41,7 +37,6 @@ public class ReportDayWiseDTO {
 		public int getDayNumber() {
 			return dayNumber;
 		}
-		
 
 		public void setDayNumber(int dayNumber) {
 			this.dayNumber = dayNumber;
@@ -105,8 +100,8 @@ public class ReportDayWiseDTO {
 
 		@Override
 		public String toString() {
-			return " ReportDayWiseDTO  [dayNumber=" + dayNumber + ",status=" + status + ", courseId=" + courseId
-					+ ", courseName =" +  courseName + ", batchId=" + batchId + ", batchName=" + batchName + ", facultyId="
+			return "ReportDayWiseDTO [dayNumber=" + dayNumber + ",status=" + status + ", courseId=" + courseId
+					+ ", courseName=" + courseName + ", batchId=" + batchId + ", batchName=" + batchName + ", facultyId="
 					+ facultyId + ", facultyName=" + facultyName + "]";
 		}
 
