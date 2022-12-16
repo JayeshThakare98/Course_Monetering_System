@@ -4,7 +4,7 @@ id int PRIMARY KEY AUTO_INCREMENT,
 username varchar(255) NOT NULL UNIQUE,
 password varchar(255) NOT NULL
 );
-==================
+========================
 create table faculty
 (
 facultyId int PRIMARY KEY AUTO_INCREMENT,
@@ -23,7 +23,7 @@ courseName varchar(255) UNIQUE,
 fee int,
 courseDescription text
 );
-==================
+========================
 create table batch
 (
 batchId int PRIMARY KEY AUTO_INCREMENT,
@@ -36,7 +36,7 @@ duration varchar(255),
 foreign key(courseId) references course(courseId) ON DELETE CASCADE,
 foreign key(facultyId) references faculty(facultyId) ON DELETE CASCADE
 );
-==================
+==========================
 create table coursPlan
 (
 planId int PRIMARY KEY AUTO_INCREMENT,
