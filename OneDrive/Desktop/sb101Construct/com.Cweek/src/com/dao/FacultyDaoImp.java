@@ -178,7 +178,7 @@ public class FacultyDaoImp implements FacultyDao{
 	@Override
 	public String deleteFacultyById() throws FacultyException {
 		// TODO Auto-generated method stub
-		String message = "You don't have permission to delete";
+		String message = "Subscribe Prime to get the features";
 
 		return message;
 	}
