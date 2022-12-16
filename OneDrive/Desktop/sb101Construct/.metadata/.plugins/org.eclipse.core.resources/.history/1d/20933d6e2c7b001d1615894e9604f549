@@ -1,0 +1,5 @@
+package com.usecases;
+
+public class AdminUseCase {
+
+}
