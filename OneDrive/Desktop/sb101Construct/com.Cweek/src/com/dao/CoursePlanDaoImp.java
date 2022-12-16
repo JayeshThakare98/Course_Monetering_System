@@ -157,7 +157,7 @@ public class CoursePlanDaoImp implements CoursePlanDao  {
 	@Override
 	public String coursePlanDeleteById() throws CoursePlanException {
 		// TODO Auto-generated method stub
-		String message = "You don't have permission to delete";
+		String message = "Subscribe Prime to get the features";
 
 		return message;
 	}
