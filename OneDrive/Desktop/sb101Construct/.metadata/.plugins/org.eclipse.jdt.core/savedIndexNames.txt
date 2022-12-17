@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\rlana\OneDrive\Desktop\sb101Construct\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2651708640.index
+1113484688.index
+3178870663.index

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.net.ConnectException"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.modelBean.Admin"/>
+    <fullyQualifiedTypeName name="com.dao.AdminDao"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.Cweek.utility.DBUtil"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.dao.AdminDaoImp"/>
+    <fullyQualifiedTypeName name="com.exception.AdminException"/>
+    <fullyQualifiedTypeName name="com.modelBean.ReportForBatchDTO"/>
+    <fullyQualifiedTypeName name="com.dao.BatchDao"/>
+    <fullyQualifiedTypeName name="com.dao.CoursePlanDao"/>
+    <fullyQualifiedTypeName name="com.exception.BatchException"/>
+    <fullyQualifiedTypeName name="com.modelBean.Batch"/>
+    <fullyQualifiedTypeName name="com.modelBean.ReportDayWiseDTO"/>
+    <fullyQualifiedTypeName name="com.exception.CourseException"/>
+    <fullyQualifiedTypeName name="com.dao.CourseDaoImp"/>
+    <fullyQualifiedTypeName name="com.modelBean.Course"/>
+    <fullyQualifiedTypeName name="com.dao.CourseDao"/>
+    <fullyQualifiedTypeName name="com.exception.FacultyException"/>
+    <fullyQualifiedTypeName name="com.introStart.UserActivity"/>
+    <fullyQualifiedTypeName name="com.dao.FacultyDaoImp"/>
+    <fullyQualifiedTypeName name="com.exception.CoursePlanException"/>
+    <fullyQualifiedTypeName name="com.dao.CoursePlanDaoImp"/>
+    <fullyQualifiedTypeName name="com.modelBean.CoursePlan"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.modelBean.Faculty"/>
+    <fullyQualifiedTypeName name="com.dao.FacultyDao"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.usecases.CoursePlanUseCase"/>
+    <fullyQualifiedTypeName name="com.usecases.BatchUseCase"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="com.usecases.AdminUseCase"/>
+    <fullyQualifiedTypeName name="com.usecases.FacultyUseCase"/>
+    <fullyQualifiedTypeName name="com.usecases.CourseUseCase"/>
+    <fullyQualifiedTypeName name="com.dao.BatchDaoImp"/>
+</qualifiedTypeNameHistroy>

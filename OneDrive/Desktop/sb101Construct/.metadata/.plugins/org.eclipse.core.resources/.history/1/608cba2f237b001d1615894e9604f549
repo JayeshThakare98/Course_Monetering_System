@@ -1,0 +1,14 @@
+package com.dao;
+
+import com.exception.AdminException;
+
+public interface AdminDao {
+//	logout admin
+	public void logoutAdmin() throws AdminException;
+	
+	
+//	login admin 	
+	public Admin loginAdmin(String username,String password )throws AdminException;
+
+
+}
